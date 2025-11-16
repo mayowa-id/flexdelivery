@@ -1,0 +1,160 @@
+/* ========================================
+   CSS VARIABLES - FLEXDELIVERY MARKETPLACE
+   ======================================== */
+
+:root {
+  /* ============ COLORS ============ */
+  
+  /* Primary Brand Colors */
+  --color-primary-blue: #1e40af;        /* Main blue for FLEX text */
+  --color-primary-blue-light: #3b82f6;  /* Lighter blue for accents */
+  --color-primary-blue-dark: #1e3a8a;   /* Darker blue for sidebar */
+  
+  /* Sidebar Colors */
+  --color-sidebar-bg-start: #1e3a8a;    /* Sidebar gradient start */
+  --color-sidebar-bg-end: #0f172a;      /* Sidebar gradient end */
+  --color-sidebar-text: #93c5fd;        /* Light blue text */
+  --color-sidebar-text-active: #ffffff; /* Active menu item text */
+  --color-sidebar-hover: rgba(59, 130, 246, 0.2); /* Hover background */
+  --color-sidebar-active-bg: rgba(59, 130, 246, 0.4); /* Active item background */
+  
+  /* Accent Colors */
+  --color-orange: #f97316;              /* Notification badges */
+  --color-orange-light: #fb923c;        /* Lighter orange for hover */
+  --color-green: #10b981;               /* Success/Active status */
+  --color-green-light: #d1fae5;         /* Light green background */
+  --color-yellow: #fbbf24;              /* Warning/Pending status */
+  --color-yellow-light: #fef3c7;        /* Light yellow background */
+  --color-red: #ef4444;                 /* Error/Danger */
+  --color-red-light: #fee2e2;           /* Light red background */
+  
+  /* Neutral Colors */
+  --color-white: #ffffff;
+  --color-gray-50: #f9fafb;             /* Very light gray background */
+  --color-gray-100: #f3f4f6;            /* Light gray background */
+  --color-gray-200: #e5e7eb;            /* Border color light */
+  --color-gray-300: #d1d5db;            /* Border color */
+  --color-gray-400: #9ca3af;            /* Disabled text */
+  --color-gray-500: #6b7280;            /* Secondary text */
+  --color-gray-600: #4b5563;            /* Body text */
+  --color-gray-700: #374151;            /* Headings */
+  --color-gray-800: #1f2937;            /* Dark text */
+  --color-gray-900: #111827;            /* Very dark text */
+  
+  /* Text Colors */
+  --color-text-primary: #1f2937;        /* Main text color */
+  --color-text-secondary: #6b7280;      /* Secondary text */
+  --color-text-disabled: #9ca3af;       /* Disabled text */
+  --color-text-link: #2563eb;           /* Link color */
+  --color-text-link-hover: #1d4ed8;     /* Link hover color */
+  
+  
+  /* ============ SPACING ============ */
+  
+  /* Base spacing units (multiples of 4px) */
+  --spacing-xs: 4px;      /* Extra small */
+  --spacing-sm: 8px;      /* Small */
+  --spacing-md: 16px;     /* Medium */
+  --spacing-lg: 24px;     /* Large */
+  --spacing-xl: 32px;     /* Extra large */
+  --spacing-2xl: 48px;    /* 2x Extra large */
+  --spacing-3xl: 64px;    /* 3x Extra large */
+  
+  /* Component specific spacing */
+  --spacing-card-padding: 16px;         /* Card padding */
+  --spacing-section-gap: 24px;          /* Gap between sections */
+  --spacing-input-padding: 12px 16px;   /* Input field padding */
+  --spacing-button-padding: 10px 20px;  /* Button padding */
+  
+  
+  /* ============ TYPOGRAPHY ============ */
+  
+  /* Font Families */
+  --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+  
+  /* Font Sizes */
+  --font-size-xs: 12px;      /* Extra small text */
+  --font-size-sm: 14px;      /* Small text */
+  --font-size-base: 16px;    /* Base text */
+  --font-size-lg: 18px;      /* Large text */
+  --font-size-xl: 20px;      /* Extra large text */
+  --font-size-2xl: 24px;     /* 2x Extra large */
+  --font-size-3xl: 30px;     /* 3x Extra large */
+  --font-size-4xl: 36px;     /* 4x Extra large */
+  
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+  
+  
+  /* ============ BORDERS ============ */
+  
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 4px;
+  
+  --border-radius-sm: 4px;      /* Small radius */
+  --border-radius-md: 8px;      /* Medium radius */
+  --border-radius-lg: 12px;     /* Large radius */
+  --border-radius-xl: 16px;     /* Extra large radius */
+  --border-radius-full: 9999px; /* Full circle */
+  
+  --border-color: var(--color-gray-300);
+  --border-color-light: var(--color-gray-200);
+  
+  
+  /* ============ SHADOWS ============ */
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  
+  /* ============ TRANSITIONS ============ */
+  
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 250ms ease-in-out;
+  --transition-slow: 350ms ease-in-out;
+  
+  
+  /* ============ LAYOUT ============ */
+  
+  --sidebar-width: 256px;         /* Sidebar width */
+  --header-height: 64px;          /* Header height */
+  --content-max-width: 1400px;    /* Maximum content width */
+  
+  
+  /* ============ Z-INDEX ============ */
+  
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-modal-backdrop: 1040;
+  --z-index-modal: 1050;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+}
+
+
+/* ========================================
+   DARK MODE SUPPORT (Optional)
+   Uncomment if you want dark mode
+   ======================================== */
+
+
+[data-theme="dark"] {
+  --color-text-primary: #f9fafb;
+  --color-text-secondary: #d1d5db;
+  --color-gray-50: #1f2937;
+  --color-gray-100: #374151;
+}
+ 
